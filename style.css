@@ -1,0 +1,102 @@
+body {
+  background-color: #000000;
+  color: #b26cff;
+  font-family: "Cinzel", cursive;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  color: #000000;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+
+.custom-padding {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.cinzel  {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;  /* Buradaki <400> kaldırıldı */
+  font-style: normal;
+}
+
+.card-title, .card-text {
+  color: #eddfdf; /* Koyu arka plan üzerinde okunabilir açık renk */
+}
+
+.hero-image {
+  position: relative; /* ::after için gerekli */
+}
+
+.hero-image::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+.row {
+  margin-top: 50px; /* Kartları daha aşağıya itmek için */
+}
+
+.card {
+  height: 380px; /* Kart yüksekliği büyütüldü */
+  margin-bottom: 3rem; /* Kartlar arası boşluk arttırıldı */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.card img {
+  width: 380px; /* Görsel büyüklüğü arttırıldı */
+  height: 380px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+@media(max-width: 767.98px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card-body {
+    overflow: visible;
+    padding: 1rem;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    float: none;
+  }
+}
+

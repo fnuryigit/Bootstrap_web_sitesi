@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>Tim Burton</title>
+
+  <style>
+    body {
+      font-family: "Cinzel", serif;
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+       nav.navbar {
+            background-color: #000 !important;
+              position: sticky;
+  top: 0;
+  z-index: 1030;
+        }
+        nav.navbar a.nav-link {
+            color: white !important;
+            transition: color 0.3s ease;
+        }
+        nav.navbar a.nav-link:hover {
+            color: rgb(126, 81, 171) !important;
+        }
+        nav.navbar .navbar-brand {
+            color: rgb(126, 81, 171) !important;
+            font-weight: bold;
+        }
+
+  
+
+    /* Hero image */
+
+    .hero-image {
+  position: relative;
+  height: 60vh;              /* Filmografi sayfadaki görsel yüksekliği */
+  background-image: url('images/filmograpy.jpg'); /* Filmografi görseli */
+  background-size: cover;    /* Alanı tam doldurur, biraz kesilebilir ama güzel görünür */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-image::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+
+   
+
+    /* Başlıklar */
+    h2, h3 {
+      color: rgb(126, 81, 171);
+      font-size: 2.2rem;
+      margin-bottom: 1.2rem;
+      text-align: center;
+      font-weight: bold;
+      animation: fadeInUp 0.6s ease;
+    }
+
+    /* Paragraflar */
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: 0 auto 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
+      color: #eddfdf;
+      animation: fadeInUp 0.8s ease;
+    }
+
+    /* Animasyon */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+   <div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><strong>Tim Burton</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Ana sayfa<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkinda.html">Hakkında</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="filmografi.html">Filmografi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="haberler.html">Haberler</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+  <!-- Hero Görsel -->
+
+  <div class="container-fluid px-4 py-4"></div>
+  <div class="hero-image d-flex align-items-center justify-content-center" style="
+    background-image: url('images/timburton.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;">
+  </div>
+</div>
+
+
+  <!-- İçerik -->
+  <div class="container py-5">
+    <h2>Hakkında</h2>
+
+    <h3>Tim Burton Kimdir?</h3>
+    <p>
+      Tim Burton, 1958 yılında Amerika Birleşik Devletleri’nde doğan, sinema dünyasının en özgün ve yaratıcı yönetmenlerinden biridir. Kariyerine animasyon ve çizimle başlayan Burton, benzersiz görsel tarzı ve gotik estetiğiyle kısa sürede dikkat çekti. Karanlık ve sürreal hikayeleri, alışılmışın dışında karakterleriyle sinemaseverlerin gönlünde taht kurdu.
+    </p>
+
+    <h3>Sanat ve Sinema Yaklaşımı</h3>
+    <p>
+      Burton’un filmleri genellikle melankolik ve esrarengiz bir atmosfer barındırır. Korku, fantastik ve kara mizah unsurlarını ustalıkla harmanlayarak, seyircisini farklı bir dünyaya davet eder. Karakterleri bazen tuhaf ve dışlanmış, bazen ise büyülü ve masalsıdır. Onun sineması, hem çocukların hem de yetişkinlerin hayal gücünü harekete geçiren evrensel temalar içerir.
+    </p>
+
+    <h3>Başlıca Eserleri</h3>
+    <p>
+      “Beetlejuice”, “Edward Scissorhands”, “The Nightmare Before Christmas”, “Sleepy Hollow” ve “Big Fish” gibi kült filmler Tim Burton’un imzasını taşıyan başlıca yapımlardır. Her biri farklı bir dünyayı ve hikayeyi anlatırken, yönetmenin benzersiz estetik anlayışını ve anlatım gücünü ortaya koyar.
+    </p>
+
+    <h3>Kültürel Etkisi ve Mirası</h3>
+    <p>
+      Tim Burton, sadece film yönetmeni değil; aynı zamanda çizer, prodüktör ve sanatçıdır. Onun etkisi popüler kültürün birçok alanında hissedilir. Filmleri ve karakterleri, oyuncaklardan video oyunlarına, sergilerden kitaplara kadar geniş bir yelpazede hayranlarıyla buluşur. Sinemaya getirdiği karanlık ama büyülü perspektif, yeni nesil yaratıcıları da derinden etkilemiştir.
+    </p>
+
+    <h3>Neden Bu Site?</h3>
+    <p>
+      Bu web sitesi, Tim Burton’un büyülü dünyasını keşfetmek isteyenler için hazırlanmıştır. Yönetmenin hayatı, eserleri ve güncel haberleri hakkında kapsamlı bilgi sunar. Sinema ve sanat tutkunları için bir rehber niteliğindedir.
+    </p>
+  </div>
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

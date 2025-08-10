@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tim Burton</title>
+    <style>
+        body {
+            font-family: "Cinzel", cursive;
+            background-color: #000;
+            color: white;
+        }
+        nav.navbar {
+            background-color: #000 !important;
+        }
+        nav.navbar a.nav-link {
+            color: white !important;
+            transition: color 0.3s ease;
+        }
+        nav.navbar a.nav-link:hover {
+            color: rgb(126, 81, 171) !important;
+        }
+        nav.navbar .navbar-brand {
+            color: rgb(126, 81, 171) !important;
+            font-weight: bold;
+        }
+        nav.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030; /* Bootstrap navbar'ın üstünde kalması için */
+}
+
+        .carousel-caption h5, .carousel-caption p {
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+        }
+        .carousel-caption h5 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .carousel-caption p {
+            font-size: 1.2rem;
+        }
+
+          footer p {
+  text-align: center;
+  margin: 1rem 0; /* İstersen üst-alt boşluk da ekleyebilirsin */
+  color: #f7f7f7; /* İstersen yazı rengi ekleyebilirsin */
+}
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><strong>Tim Burton</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Ana sayfa<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkinda.html">Hakkında</a>
+                      
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="filmografi.html">Filmografi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="haberler.html">Haberler</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/kapak.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tim Burton’un Büyülü Sinema Evrenine Yolculuk</h5>
+                    <p>Karanlık, gotik ve hayal gücünü zorlayan filmleriyle sinema tarihine damgasını vurmuş Tim Burton’ın dünyasını keşfedin. <br>Eşsiz karakterler, sürreal atmosferler ve unutulmaz hikayeler sizi bekliyor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    <p>© 2025 Fatma Nur Yiğit | Bu web sitesi eğitim amaçlı hazırlanmıştır.</p>
+   
+</footer>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

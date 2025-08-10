@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>Tim Burton</title>
+
+  <style>
+    body {
+      font-family: "Cinzel", serif;
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+       nav.navbar {
+            background-color: #000 !important;
+        }
+        nav.navbar a.nav-link {
+            color: white !important;
+            transition: color 0.3s ease;
+        }
+        nav.navbar a.nav-link:hover {
+            color: rgb(126, 81, 171) !important;
+        }
+        nav.navbar .navbar-brand {
+            color: rgb(126, 81, 171) !important;
+            font-weight: bold;
+        }
+
+    /* Hero image */
+    .hero-image {
+      position: relative;
+    }
+    .hero-image::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.4);
+    }
+
+    /* Başlıklar */
+    h2, h3 {
+      color: rgb(126, 81, 171);
+      font-size: 2.2rem;
+      margin-bottom: 1.2rem;
+      text-align: center;
+      font-weight: bold;
+      animation: fadeInUp 0.6s ease;
+    }
+
+    /* Paragraflar */
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: 0 auto 2rem auto;
+      padding: 0 1rem;
+      text-align: center;
+      color: #eddfdf;
+      animation: fadeInUp 0.8s ease;
+    }
+
+    /* Animasyon */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card-title, .card-text {
+  color: #222; /* koyu gri/siyah */
+    }
+
+    h5.card-title {
+  font-weight: 700;   /* Kalın yapar */
+  text-align: center; /* Ortalar */
+}
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+   <div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><strong>Tim Burton</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Ana sayfa<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkinda.html">Hakkında</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="filmografi.html">Filmografi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="haberler.html">Haberler</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+  <!-- Hero Görsel -->
+  <div class="hero-image d-flex align-items-center justify-content-center" style="
+    background-image: url('images/filmograpy.jpg');
+    height: 60vh;
+    background-size:contain;
+    background-repeat:no;
+    background-position: center;">
+  </div>
+
+  <!-- İçerik -->
+  <div class="container py-5">
+   
+
+    
+    <p>
+     Tim Burton, kendine has gotik ve fantastik tarzıyla sinema dünyasında özel bir yere sahip olan Amerikalı yönetmen ve yapımcıdır. Karakteristik karanlık estetiği, sıra dışı hikayeleri ve özgün görsel dünyası sayesinde, kült filmler yaratmıştır. Burton’un çalışmaları genellikle korku, fantastik ve kara mizah unsurlarını harmanlayarak izleyiciyi benzersiz bir atmosfere götürür.
+    </p>
+
+    <p>
+     Filmografisi, “Beetlejuice” ve “Edward Scissorhands” gibi   klasiklerden, “Corpse Bride” ve “Big Fish” gibi animasyon ve drama filmlerine kadar geniş bir yelpazeye sahiptir. Bu  sayfada,Tim Burton’un sinemaya kazandırdığı önemli yapımları, yayın yılları ve kısa özetleriyle bulabilir,onun sanatsal yolculuğunu keşfedebilirsiniz.
+    </p>  
+  
+  </div>
+
+
+  <div class="container mb-5">
+  <div class="row g-4">
+<div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/Beetlejuice.JPG" class="card-img-top" alt="Beetlejuice" />
+        <div class="card-body">
+          <h5 class="card-title">Beetlejuice (1988)</h5>
+          <p class="card-text">Fantastik kara komedi türündeki bu filmde, yeni ölen bir çift, evlerine yerleşen canlı aileyi korkutmak için Beetlejuice adlı bir hayaleti çağırır. Tim Burton’ın kendine özgü karanlık mizah anlayışıyla kültleşmiştir.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/edward.jpg" class="card-img-top" alt="Edward Scissorhands" />
+        <div class="card-body">
+          <h5 class="card-title">Edward Scissorhands (1990)</h5>
+          <p class="card-text">Yalnız ve tuhaf bir yaratık olan Edward, elleri yerine makaslarla dünyaya gelir. Dışlanmışlık, sevgi ve farklılık temalarını işleyen film, Johnny Depp’in unutulmaz performansıyla öne çıkar.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/batman.jpg" class="card-img-top" alt="Batman Returns" />
+        <div class="card-body">
+          <h5 class="card-title">Batman Returns (1992)</h5>
+          <p class="card-text">Burton’un yönettiği ikinci Batman filmi, Gotham City’de Batman’in Pingvin ve Catwoman ile mücadelesini anlatır. Karanlık atmosferi ve görsel efektleriyle dikkat çeker.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/thenightmare.jpg" class="card-img-top" alt="The Nightmare Before Christmas" />
+        <div class="card-body">
+          <h5 class="card-title">The Nightmare Before Christmas (1993)</h5>
+          <p class="card-text">Henry Selick’in yönettiği ancak Burton’ın yapımcısı olduğu bu stop-motion animasyon, Cadılar Bayramı Kasabası’nın kralı Jack Skellington’un Noel’i keşfetmesini konu alır. Hem karanlık hem eğlenceli bir klasik.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/sleepy.jpg" class="card-img-top" alt="Sleepy Hollow" />
+        <div class="card-body">
+          <h5 class="card-title">Sleepy Hollow (1999)</h5>
+          <p class="card-text">Washington Irving’in klasik hikayesinden uyarlanan film, Kafasız Süvari efsanesini Burton’ın gotik tarzıyla beyaz perdeye taşır. Atmosferik korku unsurlarıyla doludur.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/big-fish.jpg.webp" class="card-img-top" alt="Big Fish" />
+        <div class="card-body">
+          <h5 class="card-title">Big Fish (2003)</h5>
+          <p class="card-text">Baba-oğul ilişkisini fantastik hikayelerle anlatan film, Burton’ın daha duygusal ve gerçekçi yanını gösterir. Hayal ve gerçek arasındaki ince çizgiyi işler.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/corpse_bride.jpg" class="card-img-top" alt="Corpse Bride" />
+        <div class="card-body">
+          <h5 class="card-title">Corpse Bride (2005)</h5>
+          <p class="card-text">Stop-motion animasyon türündeki film, yanlışlıkla evlendirilmiş bir genç adamın ölüler diyarındaki macerasını anlatır. Karanlık ve romantik bir masal havasındadır.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/sweeney.jpg" class="card-img-top" alt="Sweeney Todd" />
+        <div class="card-body">
+          <h5 class="card-title">Sweeney Todd: The Demon Barber of Fleet Street (2007)</h5>
+          <p class="card-text">Müzikal formatındaki bu kara film, intikam peşindeki bir berberin trajik hikayesini konu alır. Johnny Depp ve Helena Bonham Carter başrollerde.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/Alice_in_wonderland_poster_2_1_original1.webp" class="card-img-top" alt="Alice in Wonderland" />
+        <div class="card-body">
+          <h5 class="card-title">Alice in Wonderland (2010)</h5>
+          <p class="card-text">Lewis Carroll’un klasik eserinin fantastik uyarlaması. Burton’un renkli ve yaratıcı dünyasıyla Wonderland yeniden hayat bulur.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
