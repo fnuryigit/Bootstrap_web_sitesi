@@ -39,4 +39,4 @@ Bu proje, Bootstrap framework'ü ile responsive, modern ve görsel olarak zengin
 ---
 
 Bu linkten sayfaya ulaşabilirsiniz 
-http://127.0.0.1:5500/index.html
+https://fnuryigit.github.io/Bootstrap_web_sitesi/
